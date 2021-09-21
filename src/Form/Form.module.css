@@ -1,0 +1,65 @@
+.container {
+  margin: 50px auto;
+  padding: 30px 50px;
+  width: 40%;
+  background-color: #fdfbfb;
+  border-radius: 10px;
+}
+
+.formItem {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.formItem .salary {
+  display: flex;
+  border-radius: 8px;
+  justify-content: space-around;
+  margin-top: 5px;
+  flex-wrap: wrap;
+  background-color: #ffe459;
+}
+
+.btn {
+  background-color: #ffe459;
+  color: #11052c;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.error {
+  display: block;
+}
+
+input[type="color"] {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+input[type="date"] {
+  padding: 5px 2px;
+  margin-top: 2px;
+  font-family: "Roboto", sans-serif;
+  width: 50%;
+}
+
+input[type="text"],
+input[type="email"] {
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: #fdfbfb;
+  outline: none;
+  padding: 10px 0;
+  width: 70%;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-bottom: 2px solid black;
+}
