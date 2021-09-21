@@ -32,6 +32,9 @@
 .error {
   display: block;
 }
+.text {
+  display: block;
+}
 
 input[type="color"] {
   padding: 0;
