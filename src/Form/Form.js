@@ -15,23 +15,33 @@ const Form = () => {
       <div className={classes.container}>
         <form>
           <div className={classes.formItem}>
-            <div className={classes.text}>Name</div>
+            <label className={classes.text} for="name">
+              Name
+            </label>
             <input type="text" required></input>
           </div>
           <div className={classes.formItem}>
-            <div className={classes.text}>Email</div>
+            <label className={classes.text} for="email">
+              Email
+            </label>
             <input type="email" required></input>
           </div>
           <div className={classes.formItem}>
-            <div className={classes.text}>Date of Birth</div>
+            <label className={classes.text} for="date of birth">
+              Date of Birth
+            </label>
             <input type="date" required></input>
           </div>
           <div className={classes.formItem}>
-            <div className={classes.text}>Favourite Colour</div>
+            <label className={classes.text} for="favourite color">
+              Favourite Colour
+            </label>
             <input type="color"></input>
           </div>
           <div className={classes.formItem}>
-            <div className={classes.text}>Salary</div>
+            <label className={classes.text} for="salary">
+              Salary
+            </label>
             <div className={classes.salary}>
               <input
                 type="range"
