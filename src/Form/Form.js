@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import classes from "./Form.module.css";
 
 const Form = () => {
+  //State to hold the input range value
   const [value, setValue] = useState(50000);
 
+  //This function holds changes made to the input range
   function handleChange(event) {
     setValue(event.target.value);
   }
